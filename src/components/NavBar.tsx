@@ -1,27 +1,28 @@
 import React from "react";
-import { BiHeart, BiCart } from 'react-icons/bi'
+import { BiCart } from 'react-icons/bi'
+import { FaRegHeart, FaHeart } from 'react-icons/fa'
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="contain flex justify-between">
-      <div className="flex items-center justify-evenly gap-10">
-        <button className="px-10 py-3 bg-[#bdbdbd] ">Logo</button>
-        <ul className="inline-grid lg:grid-cols-3 xl:grid-cols-3 gap-x-7 gap-y-1">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Product</li>
-          <li>Personalization</li>
-          <li>More</li>
+    <nav className="contain flex xs:flex-col xl:flex-row justify-between gap-y-5">
+      <div className="flex items-center xl:justify-center">
+        <button className="px-10 py-2.5 bg-[#bdbdbd]">Logo</button>
+        <ul className="flex gap-2 items-center">
+          <li className="nav-style">Home</li>
+          <li className="nav-style">About Us</li>
+          <li className="nav-style">Product</li>
+          <li className="nav-style">Personalization</li>
+          <li className="nav-style">More</li>
         </ul>
       </div>
 
-      <div className="flex items-center gap-5">
+      <div className="flex items-center xl:gap-6 xl:justify-center">
         <input
           type="text"
           placeholder="What are you looking for?"
           className="bg-gray-200 py-2 px-[18px] rounded-full"
         />
-        <BiHeart className="cursor-pointer text-2xl"/>
+        <FaRegHeart className="cursor-pointer text-2xl"/>
         <BiCart className="cursor-pointer text-3xl"/>
       </div>
     </nav>

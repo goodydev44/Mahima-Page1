@@ -2,6 +2,7 @@ import React from "react";
 import WinSizeTracker from "./WinSizeTracker";
 import Header from "./Header";
 import NavBar from "./NavBar";
+import Hero from "./Hero";
 
 const Main: React.FC = () => {
   return (
@@ -9,6 +10,7 @@ const Main: React.FC = () => {
       <WinSizeTracker />
       <Header />
       <NavBar />
+      <Hero />
     </div>
   );
 };

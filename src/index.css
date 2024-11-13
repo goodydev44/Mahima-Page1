@@ -4,6 +4,9 @@
 
 @layer base {
     .contain {
-        @apply lg:px-[9%] xl:px-[12.5%] 2xl:px-[15%] transition
+        @apply md:px-[5%] lg:px-[9%] xl:px-[12.5%] 2xl:px-[14.5%] transition
+    }
+    .nav-style {
+        @apply cursor-pointer px-3 py-1 rounded-full hover:bg-gray-300
     }
 }
