@@ -2,7 +2,7 @@ import React from 'react'
 import img from '../assets/Images/image.png'
 import { FaRegHeart, FaRegEye, FaStar } from 'react-icons/fa'
 
-const NewLaunch: React.FC = () => {
+const FlashSales: React.FC = () => {
   const list = [1, 2, 3, 4, 5]
 
   const rating = list.map(() => {
@@ -35,15 +35,44 @@ const NewLaunch: React.FC = () => {
       </div>
     )
   })
+
   return (
-    <div className='mt-44'>
+    <div className='mt-28'>
       <div className='flex items-center gap-5 mb-6'>
         <div className='h-[50px] w-[10px] px-3 rounded-md bg-[#bba689]'></div>
         <h3 className='text-[#bba689] font-semibold text-xl'>Today's</h3>
       </div>
 
-      <h1 className='text-[40px] font-bold mb-8'>New Launch</h1>
+      <div className='flex gap-28 mb-6'>
+        <h1 className='text-[40px] font-bold'>Flash Sales</h1>
+        <div className='flex gap-6 text-[40px] items-end'>
+          <div className=''>
+            <h3 className='text-base -mb-2'>Days</h3>
+            <h1 className='font-bold'>03</h1>
+          </div>
 
+          <div className='mb-2 text-[#bba689]'>:</div>
+
+          <div className=''>
+            <h3 className='text-base -mb-2'>Hours</h3>
+            <h1 className='font-bold'>23</h1>
+          </div>
+
+          <div className='mb-2 text-[#bba689]'>:</div>
+
+          <div className=''>
+            <h3 className='text-base -mb-2'>Minutes</h3>
+            <h1 className='font-bold'>19</h1>
+          </div>
+
+          <div className='mb-2 text-[#bba689]'>:</div>
+
+          <div className=''>
+            <h3 className='text-base -mb-2'>Seconds</h3>
+            <h1 className='font-bold'>56</h1>
+          </div>
+        </div>
+      </div>
       <div className='flex gap-9 overflow-x-auto'>
         {gallery}
       </div>
@@ -51,4 +80,4 @@ const NewLaunch: React.FC = () => {
   )
 }
 
-export default NewLaunch
+export default FlashSales

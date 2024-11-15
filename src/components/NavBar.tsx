@@ -1,6 +1,6 @@
 import React from "react";
 import { BiCart } from 'react-icons/bi'
-import { FaRegHeart, FaHeart } from 'react-icons/fa'
+import { FaRegHeart, FaHeart, FaSearch } from 'react-icons/fa'
 
 const NavBar: React.FC = () => {
   return (
@@ -19,8 +19,8 @@ const NavBar: React.FC = () => {
       <div className="flex items-center xl:gap-6 xl:justify-center">
         <input
           type="text"
-          placeholder="What are you looking for?"
-          className="bg-gray-200 py-2 px-[18px] rounded-full"
+          placeholder="What are you looking for? "
+          className="bg-gray-100 py-2 px-[18px] rounded-full"
         />
         <FaRegHeart className="cursor-pointer text-2xl"/>
         <BiCart className="cursor-pointer text-3xl"/>
