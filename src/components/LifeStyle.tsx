@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const LifeStyle: React.FC = () => {
   return (
-    <div>
+    <div className='mb-20'>
       <div className='flex items-center gap-5 mb-6'>
         <div className='h-[50px] w-[10px] px-3 rounded-md bg-[#bba689]'></div>
         <h3 className='text-[#bba689] font-semibold text-xl'>Featured</h3>
@@ -82,7 +82,7 @@ const LifeStyle: React.FC = () => {
         <div className='flex justify-between bg-[#bcb8d7] px-10 py-12'>
           <div className='flex flex-col items-start gap-7'>
             <h5 className='text-sm font-bold'>Categories</h5>
-            <h1 className='text-3xl font-bold text-white'>Enhance Your Music Experience</h1>
+            <h1 className='text-5xl font-medium text-white'>Enhance Your Music Experience</h1>
             <div className='flex gap-6 text-[#d64f44]'>
               <div className='bg-white flex flex-col rounded-full h-[65px] w-[65px] items-center justify-center'>
                 <h4 className='font-bold'>23</h4>
