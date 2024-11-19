@@ -30,7 +30,7 @@ const NewLaunch: React.FC = () => {
           <div className='flex gap-1 text-lg items-center text-[#7a7a7a]'>
             {rating} (88)
           </div>
-          <button className='text-base bg-[#bba689] w-[300px] text-white font-bold p-[10px]'>ADD TO CHART</button>
+          <button className='text-base bg-[#bba689] w-[260px] text-white font-bold p-[10px]'>ADD TO CHART</button>
         </div>
       </div>
     )
