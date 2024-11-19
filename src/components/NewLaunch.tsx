@@ -15,22 +15,22 @@ const NewLaunch: React.FC = () => {
     return (
       <div className="relative bg-[#ececec] max-w-fit pt-7 pb-2">
         <div className='flex items-start justify-between px-4'>
-          <div className='bg-red-500 text-white px-4 py-1 rounded-lg'>-40%</div>
+          <div className='bg-red-500 text-white px-4 py-1 rounded-lg text-sm'>-40%</div>
           <div className='grid text-4xl justify-end gap-3'>
             <FaRegHeart className='bg-[#ffffff] p-1.5 rounded-full' />
             <FaRegEye className='bg-[#ffffff] p-1.5 rounded-full' />
           </div>
         </div>
-        <div className='text-center -mt-[20px] px-[20%] mb-[70px]'>
-          <img src={img} className='h-[160px]' />
+        <div className='text-center -mt-[25px] mx-[20%] mb-[70px]'>
+          <img src={img} className='h-[145px]' />
         </div>
         <div className='grid gap-1.5 px-3'>
-          <h4 className='text-lg font-[500]'>HAVIT HV-G92 Headphone</h4>
-          <p className='text-lg text-[#beab90] font-[500]'>$120 <del className='ml-1 text-[#7a7a7a]'>$160</del></p>
-          <div className='flex gap-1 text-xl items-center text-[#7a7a7a]'>
+          <h4 className='text-base font-[500]'>HAVIT HV-G92 Headphone</h4>
+          <p className='text-base text-[#beab90] font-[500]'>$120 <del className='ml-1 text-[#7a7a7a]'>$160</del></p>
+          <div className='flex gap-1 text-lg items-center text-[#7a7a7a]'>
             {rating} (88)
           </div>
-          <button className='text-lg bg-[#bba689] w-[300px] text-white font-bold p-[10px]'>ADD TO CHART</button>
+          <button className='text-base bg-[#bba689] w-[300px] text-white font-bold p-[10px]'>ADD TO CHART</button>
         </div>
       </div>
     )
