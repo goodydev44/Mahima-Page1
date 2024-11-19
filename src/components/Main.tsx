@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
+import CategoryGallary from "./CategoryGallary";
 import FlashSales from "./FlashSales";
 import NewLaunch from "./NewLaunch";
 import LifeStyle from "./LifeStyle";
@@ -17,6 +18,7 @@ const Main: React.FC = () => {
       <Header />
       <NavBar />
       <Hero />
+      <CategoryGallary />
       <FlashSales />
       <NewLaunch />
       <LifeStyle />

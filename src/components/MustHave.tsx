@@ -3,7 +3,7 @@ import Img from '../assets/Images/person 2.png'
 
 const MustHave: React.FC = () => {
   return (
-    <div className='flex items-center justify-between mb-20'>
+    <div className='contain flex items-center justify-between mb-20'>
       <div>
         <div className='mb-16'>
           <h1 className='text-3xl font-semibold mb-4'>Get your next must-have <br /> Gadget</h1>

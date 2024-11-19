@@ -36,7 +36,7 @@ const NewLaunch: React.FC = () => {
     )
   })
   return (
-    <div className='my-[120px]'>
+    <div className='contain my-[120px]'>
       <div className='flex items-center gap-5 mb-6'>
         <div className='h-[50px] w-[10px] px-3 rounded-md bg-[#bba689]'></div>
         <h3 className='text-[#bba689] font-semibold text-xl'>Today's</h3>

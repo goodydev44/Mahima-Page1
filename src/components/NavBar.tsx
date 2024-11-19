@@ -4,10 +4,10 @@ import { FaRegHeart, FaHeart, FaSearch } from 'react-icons/fa'
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="flex justify-between my-4">
-      <div className="flex items-center">
-        <button className="px-10 py-2.5 bg-[#bdbdbd]">Logo</button>
-        <ul className="inline-grid grid-cols-3 gap- items-center">
+    <nav className="contain flex md:items-center xl:justify-between my-4 xs:flex-col xl:flex-row gap-5">
+      <div className="flex items-center text-[15px]">
+        <button className="px-10 py-2.5 bg-[#bdbdbd] mr-10">Logo</button>
+        <ul className="Grid--style items-center">
           <li className="nav-style">Home</li>
           <li className="nav-style">About Us</li>
           <li className="nav-style">Product</li>
@@ -16,14 +16,14 @@ const NavBar: React.FC = () => {
         </ul>
       </div>
 
-      <div className="flex items-center gap-6">
-        <div className="cursor-text flex items-center px-[10px] bg-gray-100  rounded-full">
+      <div className="flex items-center gap-6 min-w-[50]">
+        <div className="cursor-text flex items-center px-[10px] bg-gray-100 rounded-full">
           <input
             type="text"
             placeholder="What are you looking for?"
-            className="bg-gray-100 py-2 px-[10px] rounded-full outline-none"
+            className="bg-gray-100 py-2 px-[10px] md:w-[350px] xl:w-[250px] rounded-full outline-none"
           />
-          <FaSearch className="text-2xl -ml-11" />
+          <FaSearch className="text-2xl" />
         </div>
         <FaRegHeart className="cursor-pointer text-2xl" />
         <BiCart className="cursor-pointer text-3xl" />

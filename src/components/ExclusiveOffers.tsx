@@ -3,7 +3,7 @@ import Img from '../assets/Images/people.png'
 
 const ExclusiveOffers: React.FC = () => {
   return (
-    <div className='flex items-center justify-between gap-5'>
+    <div className='contain flex items-center justify-between gap-5'>
       <img src={Img} className='h-[300px]' />
       <div>
         <div className='mb-16'>

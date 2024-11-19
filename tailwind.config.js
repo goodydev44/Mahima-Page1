@@ -9,6 +9,8 @@ export default {
       screens: {
         mobile: "200px",
         xs: "450px",
+        "xl2": "1460px",
+        "2xl": "1600px",
       }
     },
   },
