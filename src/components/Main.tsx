@@ -14,7 +14,6 @@ import Footer from "./Footer";
 const Main: React.FC = () => {
   return (
     <div>
-      {/* <WinSizeTracker /> */}
       <Header />
       <NavBar />
       <Hero />

@@ -1,10 +1,10 @@
 import React from "react";
 import { BiCart } from 'react-icons/bi'
-import { FaRegHeart, FaHeart, FaSearch } from 'react-icons/fa'
+import { FaRegHeart, FaSearch } from 'react-icons/fa'
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="contain flex md:items-center xl:justify-between my-4 xs:flex-col xl:flex-row gap-5">
+    <nav className="contain flex xs:items-center xl:justify-between my-4 mobile:flex-col xl:flex-row gap-5">
       <div className="flex items-center text-[15px]">
         <button className="px-10 py-2.5 bg-[#bdbdbd] mr-10">Logo</button>
         <ul className="Grid--style items-center">
@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
       </div>
 
       <div className="flex items-center gap-6 min-w-[50]">
-        <div className="cursor-text flex items-center px-[10px] bg-gray-100 rounded-full">
+        <div className="flex items-center px-[10px] bg-gray-100 rounded-full">
           <input
             type="text"
             placeholder="What are you looking for?"

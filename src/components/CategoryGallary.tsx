@@ -17,7 +17,7 @@ const CategoryGallary: React.FC = () => {
     );
   });
   return (
-    <div className="contain grid xs:grid-cols-3 lg:grid-cols-6 justify-center gap-12 mt-12">
+    <div className="contain grid mobile:grid-cols-2 xs:grid-cols-3 lg:grid-cols-6 justify-center mobile:gap-y-5 xs:gap-y-12 sm:gap-12 mt-12">
       {HeadphoneGallary}
     </div>
   )

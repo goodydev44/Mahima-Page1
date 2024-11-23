@@ -43,31 +43,31 @@ const FlashSales: React.FC = () => {
         <h3 className='text-[#bba689] font-semibold text-xl'>Today's</h3>
       </div>
 
-      <div className='flex gap-28 mb-6'>
+      <div className='flex md:items-end mobile:flex-col md:flex-row mb-6 mobile:gap-y-5 md:gap-x-[50px] md2:gap-x-[70px] lg:gap-x-24'>
         <h1 className='text-[40px] font-bold'>Flash Sales</h1>
         <div className='flex gap-6 text-[40px] items-end'>
-          <div className=''>
+          <div>
             <h3 className='text-base -mb-2'>Days</h3>
             <h1 className='font-bold'>03</h1>
           </div>
 
           <div className='mb-2 text-[#bba689]'>:</div>
 
-          <div className=''>
+          <div>
             <h3 className='text-base -mb-2'>Hours</h3>
             <h1 className='font-bold'>23</h1>
           </div>
 
           <div className='mb-2 text-[#bba689]'>:</div>
 
-          <div className=''>
+          <div>
             <h3 className='text-base -mb-2'>Minutes</h3>
             <h1 className='font-bold'>19</h1>
           </div>
 
           <div className='mb-2 text-[#bba689]'>:</div>
 
-          <div className=''>
+          <div>
             <h3 className='text-base -mb-2'>Seconds</h3>
             <h1 className='font-bold'>56</h1>
           </div>
