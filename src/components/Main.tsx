@@ -1,5 +1,4 @@
 import React from "react";
-// import WinSizeTracker from "./WinSizeTracker";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
