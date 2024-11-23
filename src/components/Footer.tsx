@@ -5,7 +5,7 @@ import { GoShieldCheck } from 'react-icons/go'
 
 const Footer: React.FC = () => {
   return (
-    <div className='text-5xl flex justify-evenly mt-20'>
+    <div className='contain text-5xl flex justify-evenly mt-20'>
       <div className='bg-[#eae4db] p-2 rounded-full'>
         <AiOutlineTruck className='bg-[#000000] text-white rounded-full p-2' />
       </div>

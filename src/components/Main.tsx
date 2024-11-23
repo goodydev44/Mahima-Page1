@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
+import CategoryGallary from "./CategoryGallary";
 import FlashSales from "./FlashSales";
 import NewLaunch from "./NewLaunch";
 import LifeStyle from "./LifeStyle";
@@ -13,10 +14,10 @@ import Footer from "./Footer";
 const Main: React.FC = () => {
   return (
     <div>
-      {/* <WinSizeTracker /> */}
       <Header />
       <NavBar />
       <Hero />
+      <CategoryGallary />
       <FlashSales />
       <NewLaunch />
       <LifeStyle />
