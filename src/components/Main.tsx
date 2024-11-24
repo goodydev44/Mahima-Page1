@@ -8,7 +8,7 @@ import NewLaunch from "./NewLaunch";
 import LifeStyle from "./LifeStyle";
 import MustHave from "./MustHave";
 import ExclusiveOffers from "./ExclusiveOffers";
-import Footer from "./Footer";
+import Features from "./Features";
 
 const Main: React.FC = () => {
   return (
@@ -22,7 +22,7 @@ const Main: React.FC = () => {
       <LifeStyle />
       <MustHave />
       <ExclusiveOffers />
-      <Footer />
+      <Features />
     </div>
   );
 };
