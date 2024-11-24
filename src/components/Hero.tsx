@@ -4,7 +4,7 @@ import img from "../assets/Images/person.png";
 
 const Hero: React.FC = () => {
   return (
-    <div className="contain bg-gradient-to-r from-[#4f4d4d] to-[black]">
+    <div className="contain bg-gradient-to-r from-[#4f4d4d] to-[black] mb-12">
       <div className="flex mobile:flex-col sm:flex-row justify-between items-center text-white
             pt-16">
         <div>
