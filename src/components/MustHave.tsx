@@ -3,7 +3,7 @@ import Img from '../assets/Images/person 2.png'
 
 const MustHave: React.FC = () => {
   return (
-    <div className='contain flex mobile:flex-col-reverse md2:flex-row items-center justify-between mb-20'>
+    <div className='contain flex gap-5 mobile:flex-col-reverse md2:flex-row items-center justify-between mb-28'>
       <div>
         <div className='mb-14'>
           <h1 className='text-4xl font-semibold mb-4'>Get your next must-have <br /> Gadget</h1>
@@ -16,7 +16,7 @@ const MustHave: React.FC = () => {
         <button className='text-[15px] bg-[#333333] text-white py-2.5 px-9 rounded-[4px]'>SEE MORE</button>
       </div>
 
-      <img src={Img} className='mobile:h-[300px] md:h-[330px] lg:h-[370px] xl:h-[400px] mobile:mb-14 md2:mb-0' />
+      <img src={Img} className='mobile:h-[300px] md:h-[330px] lg:h-[370px] xl:h-[400px] 2xl:h-[500px] mobile:mb-14 md2:mb-0' />
     </div>
   )
 }

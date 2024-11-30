@@ -3,8 +3,8 @@ import Img from '../assets/Images/people.png'
 
 const ExclusiveOffers: React.FC = () => {
   return (
-    <div className='contain flex mobile:flex-col md2:flex-row items-center justify-between gap-5 mb-28'>
-      <img src={Img} className='mobile:h-[330px] lg:h-[370px]' />
+    <div className='contain flex mobile:flex-col md2:flex-row items-center justify-between gap-10 mb-28'>
+      <img src={Img} className='mobile:h-[330px] lg:h-[370px] lg2:h-[380px] xl:h-[400px] 2xl:h-[500px]' />
       <div>
         <div className='mb-16'>
           <h1 className='text-3xl font-semibold mb-4'>Discover exclusive offer in <br /> your budget</h1>
