@@ -1,19 +1,20 @@
 import React from 'react'
 import img from '../assets/Images/image.png'
 import { FaRegHeart, FaRegEye, FaStar } from 'react-icons/fa'
+import { nanoid } from 'nanoid'
 
 const FlashSales: React.FC = () => {
   const list = [1, 2, 3, 4, 5]
 
   const rating = list.map(() => {
     return (
-      <FaStar className='text-[#ebad3f]' />
+      <FaStar key={nanoid()} className='text-[#ebad3f]' />
     )
   })
 
   const gallery = list.map(() => {
     return (
-      <div className="relative bg-[#ececec] max-w-fit pt-7 pb-2">
+      <div key={nanoid()} className="relative bg-[#ececec] max-w-fit pt-7 pb-2">
         <div className='flex items-start justify-between px-4'>
           <div className='bg-red-500 text-white px-4 py-1 rounded-lg text-sm'>-40%</div>
           <div className='grid text-4xl justify-end gap-3'>

@@ -9,6 +9,9 @@ import LifeStyle from "./LifeStyle";
 import MustHave from "./MustHave";
 import ExclusiveOffers from "./ExclusiveOffers";
 import Features from "./Features";
+import Comments from "./Comments";
+import Section from "./Section";
+import Footer from "./Footer";
 
 const Main: React.FC = () => {
   return (
@@ -23,6 +26,9 @@ const Main: React.FC = () => {
       <MustHave />
       <ExclusiveOffers />
       <Features />
+      <Comments />
+      <Section />
+      <Footer />
     </div>
   );
 };
