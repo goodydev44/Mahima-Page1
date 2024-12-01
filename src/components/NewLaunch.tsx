@@ -45,7 +45,7 @@ const NewLaunch: React.FC = () => {
 
       <h1 className='text-[40px] font-bold mb-8'>New Launch</h1>
 
-      <div className='flex gap-9 overflow-x-auto'>
+      <div className='flex gap-9 overflow-auto'>
         {gallery}
       </div>
     </div>
