@@ -100,7 +100,7 @@ const LifeStyle: React.FC = () => {
                 <p className='text-sm'>Seconds</p>
               </div>
             </div>
-            <button className='bg-black text-white text-sm rounded-[4px] px-9 py-2.5'>Buy Now!</button>
+            <button className='bg-black hover:bg-[#323232] transition duration-200 text-white text-sm rounded-[4px] px-9 py-2.5'>Buy Now!</button>
           </div>
           <img src={boombox} className='mobile:w-[420px] lg2:w-[450px] xl:w-[500px]' />
         </div>

@@ -6,7 +6,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="contain flex xs:items-center xl:justify-between my-4 mobile:flex-col xl:flex-row gap-5">
       <div className="flex items-center text-[15px]">
-        <button className="px-10 py-2.5 bg-[#bdbdbd] mr-10">Logo</button>
+        <button className="px-10 py-2.5 bg-[#bdbdbd] hover:bg-[#acaaaa] transition mr-10">Logo</button>
         <ul className="Grid--style items-center">
           <li className="nav-style">Home</li>
           <li className="nav-style">About Us</li>

@@ -52,7 +52,7 @@ const Section: React.FC = () => {
         <h3 className='font-bold text-[20px] mb-4'>Subscribe to our News Letter</h3>
         <p className='text-sm font-medium mb-5'>Sign up to be the first to receive latest news about our products.</p>
         <input type="text" className='block mb-5 py-1 px-3 rounded-full outline-none bg-[#f1ece4]' placeholder='Enter Your Email Adress' />
-        <button className='bg-[#252525] text-white px-3 py-2 rounded-md'>Subscribe {'>'}</button>
+        <button className='bg-[#252525] hover:bg-[#090909] transition text-white px-3 py-2 rounded-md'>Subscribe {'>'}</button>
       </div>
     </div>
   )
