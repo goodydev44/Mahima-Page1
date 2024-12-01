@@ -74,7 +74,7 @@ const FlashSales: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='flex gap-9 overflow-x-auto'>
+      <div className='flex gap-9 overflow-auto'>
         {gallery}
       </div>
     </div>
