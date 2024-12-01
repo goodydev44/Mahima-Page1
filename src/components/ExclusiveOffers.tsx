@@ -14,7 +14,7 @@ const ExclusiveOffers: React.FC = () => {
             elevate your daily life and inspire your passions
             passions.</p>
         </div>
-        <button className='text-[15px] bg-[#333333] text-white py-2.5 px-9 rounded-[4px]'>SEE MORE</button>
+        <button className='text-[15px] bg-[#333333] hover:bg-[#141414] transition text-white py-2.5 px-9 rounded-[4px]'>SEE MORE</button>
       </div>
     </div>
   )

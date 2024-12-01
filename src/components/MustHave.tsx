@@ -13,7 +13,7 @@ const MustHave: React.FC = () => {
             designed to elevate your daily life and inspire your
             passions.</p>
         </div>
-        <button className='text-[15px] bg-[#333333] text-white py-2.5 px-9 rounded-[4px]'>SEE MORE</button>
+        <button className='text-[15px] bg-[#333333] hover:bg-[#141414] transition text-white py-2.5 px-9 rounded-[4px]'>SEE MORE</button>
       </div>
 
       <img src={Img} className='mobile:h-[300px] md:h-[330px] lg:h-[370px] xl:h-[400px] 2xl:h-[500px] mobile:mb-14 md2:mb-0' />
